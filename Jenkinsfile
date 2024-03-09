@@ -11,7 +11,7 @@ pipeline {
             post {
                 always {
                     catchError {
-                        sh 'echo "Build stage completed"'
+                        sh 'ech "Build stage completed"'
                     }
                 }
             }
